@@ -9,7 +9,11 @@ Generate mesmerizing epicycle animations from SVG images using Discrete Fourier 
 - [🎯 Overview](#-overview)
 - [🧠 Theory](#-theory)
 - [✨ Features](#-features)
-- [🛠️ Requirements](#️-requirements)
+- [🛠️ Requirements](#-requirements)
+  - [📦 Install Required Dependencies](#-install-required-dependencies)
+- [📂 Examples](#-examples)
+  - [👦 Boy Drawing Animation](#-boy-drawing-animation)
+  - [➕ More Examples](#-more-examples)
 
 ---
 
@@ -70,11 +74,6 @@ pip install numpy matplotlib svgpathtools scipy opencv-python svgwrite
 ![Boy Animation](https://github.com/AdityaAbhilash/Epicycle/blob/main/Examples/boy_color/boy.gif)
 
 ---
-
-## 📄 License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
-Feel free to use, modify, and distribute it with proper attribution.
 
 ### ➕ More Examples
 

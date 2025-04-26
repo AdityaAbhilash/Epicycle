@@ -52,7 +52,7 @@ Install the required dependencies with:
 
 ```bash
 pip install numpy matplotlib svgpathtools
-
+```
 
 ## 🔄 Boy Example
 

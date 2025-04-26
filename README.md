@@ -1,29 +1,29 @@
-# 🌀 Epicycle Drawing from SVG Paths
+# Epicycle Drawing from SVG Paths
 
 Generate mesmerizing epicycle animations from SVG images using Discrete Fourier Transform (DFT). This project converts vector paths into continuous one-line epicycle drawings, inspired by Fourier Series visualization.
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
-- [🎯 Overview](#-overview)
-- [🧠 Theory](#-theory)
-- [✨ Features](#-features)
-- [🛠️ Requirements](#-requirements)
-  - [📦 Install Required Dependencies](#-install-required-dependencies)
-- [📂 Examples](#-examples)
-  - [👦 Boy Drawing Animation](#-boy-drawing-animation)
-  - [➕ More Examples](#-more-examples)
+- [Overview](#-overview)
+- [Theory](#-theory)
+- [Features](#-features)
+- [🛠Requirements](#-requirements)
+  - [Install Required Dependencies](#-install-required-dependencies)
+- [Examples](#-examples)
+  - [Boy Drawing Animation](#-boy-drawing-animation)
+  - [More Examples](#-more-examples)
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This project visualizes SVG drawings using rotating vectors, called epicycles, based on their Fourier coefficients. It supports multi-path SVGs and animates each disjoint curve simultaneously. This technique bridges signal processing with artistic visualization.
 
 ---
 
-## 🧠 Theory
+## Theory
 
 Fourier Series allows us to represent any periodic signal as a sum of sinusoids. In our case, we treat an SVG path as a complex signal:
 
@@ -37,24 +37,24 @@ This method captures both the frequency and phase information of the signal, mak
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔁 Multi-path SVG support (disjoint continuous paths).
-- 📈 Fourier Coefficient computation using NumPy FFT.
-- 🌀 Animated epicycle visualization using matplotlib.
-- 🧹 Optional path smoothing and simplification.
-- ✍️ SVG tracing from hand-drawn sketches (optional Kivy interface).
-- 🎥 Save animations as MP4 or GIF.
+- Multi-path SVG support (disjoint continuous paths).
+- Fourier Coefficient computation using NumPy FFT.
+- Animated epicycle visualization using matplotlib.
+- Optional path smoothing and simplification.
+- SVG tracing from hand-drawn sketches (optional Kivy interface).
+- Save animations as MP4 or GIF.
 
 ---
 
-## 🛠️ Requirements
+## 🛠Requirements
 
 Ensure you have **Python 3.7+** installed.
 
 ---
 
-### 📦 Install Required Dependencies
+### Install Required Dependencies
 
 Install all the necessary libraries using the following command:
 
@@ -63,9 +63,9 @@ pip install numpy matplotlib svgpathtools scipy opencv-python svgwrite
 
 ```
 
-## 📂 Examples
+## Examples
 
-### 👦 Boy Drawing Animation
+### Boy Drawing Animation
 
 **Original Sketch**  
 ![Boy Image](https://github.com/AdityaAbhilash/Epicycle/blob/main/Examples/boy_color/boy.png)
@@ -75,7 +75,7 @@ pip install numpy matplotlib svgpathtools scipy opencv-python svgwrite
 
 ---
 
-### ➕ More Examples
+### More Examples
 
-Explore more SVG sketches and their animations in the [**Examples** folder**](https://github.com/AdityaAbhilash/Epicycle/tree/main/Examples).
+Explore more SVG sketches and their animations in the **Examples** folder.
 

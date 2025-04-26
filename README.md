@@ -53,7 +53,8 @@ Install the required dependencies with:
 ```bash
 pip install numpy matplotlib svgpathtools
 
-### 🔄 Boy Example
+
+## 🔄 Boy Example
 
 ![Boy Animation](https://github.com/AdityaAbhilash/Epicycle/blob/main/Examples/boy_color/boy.gif)
 

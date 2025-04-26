@@ -55,6 +55,6 @@ pip install numpy matplotlib svgpathtools
 
 ### 🔄 Boy Example
 
-![Boy Animation](https://github.com/AdityaAbhilash/Epicycle/raw/main/examples/boy/boy.gif)
+![Boy Animation](https://github.com/AdityaAbhilash/Epicycle/raw/main/Examples/boy_color/boy.gif)
 
-🖼️ [boy.png](https://github.com/AdityaAbhilash/Epicycle/raw/main/examples/boy/boy.gif)
+🖼️ [boy.png](https://github.com/AdityaAbhilash/Epicycle/raw/main/Examples/boy_color/boy.gif)

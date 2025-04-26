@@ -9,7 +9,7 @@ Generate mesmerizing epicycle animations from SVG images using Discrete Fourier 
 - [Overview](#-overview)
 - [Theory](#-theory)
 - [Features](#-features)
-- [🛠Requirements](#-requirements)
+- [Requirements](#-requirements)
   - [Install Required Dependencies](#-install-required-dependencies)
 - [Examples](#-examples)
   - [Boy Drawing Animation](#-boy-drawing-animation)

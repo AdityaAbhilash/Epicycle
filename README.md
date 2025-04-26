@@ -46,16 +46,37 @@ This method captures both the frequency and phase information of the signal, mak
 
 ## 🛠️ Requirements
 
-Ensure you have Python 3.7+ installed.
+Ensure you have **Python 3.7+** installed.
 
-Install the required dependencies with:
+---
+
+### 📦 Install Required Dependencies
+
+Install all the necessary libraries using the following command:
 
 ```bash
-pip install numpy matplotlib svgpathtools
+pip install numpy matplotlib svgpathtools scipy opencv-python svgwrite
+
 ```
 
-## 🔄 Boy Example
+## 📂 Examples
 
+### 👦 Boy Drawing Animation
+
+**Original Sketch**  
+![Boy Image](https://github.com/AdityaAbhilash/Epicycle/blob/main/Examples/boy_color/boy.png)
+
+**Epicycle Animation**  
 ![Boy Animation](https://github.com/AdityaAbhilash/Epicycle/blob/main/Examples/boy_color/boy.gif)
 
-🖼️ [boy.png](https://github.com/AdityaAbhilash/Epicycle/blob/main/Examples/boy_color/boy.png)
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
+Feel free to use, modify, and distribute it with proper attribution.
+
+### ➕ More Examples
+
+Explore more SVG sketches and their animations in the [**Examples** folder**](https://github.com/AdityaAbhilash/Epicycle/tree/main/Examples).
+
